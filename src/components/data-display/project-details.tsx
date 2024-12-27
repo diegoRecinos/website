@@ -25,17 +25,17 @@ const ProjectDetails = ({
       {/* Image */}
       <div
         className={mergeClasses(
-          'flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-12',
+          'flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200  md:w-1/2 lg:p-12',
           layoutType === 'default'
-            ? 'md:rounded-l-xl md:border-r'
-            : 'md:order-last md:rounded-r-xl md:border-l'
+            ? ' md:border-r'
+            : 'md:order-last  md:border-l'
         )}
       >
         <Link noCustomization href={url} externalLink>
           <Image
             src={previewImage}
             alt={`${name} preview`}
-            className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
+            className="shadow-lg transition-transform duration-500 md:hover:scale-105"
             style={{ objectFit: 'cover' }}
           />
         </Link>

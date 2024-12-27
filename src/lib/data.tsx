@@ -179,23 +179,6 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'SafePlace',
-    description:
-      'A platform for filing complaints mainly aimed for internal use in an organization to keep track of complaints.',
-    url: 'https://safeplace.site',
-    previewImage: ProjectSafeplace,
-    technologies: [
-      'React',
-      'JavaScript',
-      'Antd',
-      'Nginx',
-      'Express.js',
-      'MongoDB',
-      'Docker',
-      'Vite',
-    ],
-  },
-  {
     name: 'Central bank CRUD',
     description:
       'Javafx app for purchase transactions using CRUD operations and generating reports using SQL queries  for the user.',
@@ -217,6 +200,24 @@ export const PROJECTS: ProjectDetails[] = [
       'Storybook',
     ],
   },
+  {
+    name: 'SafePlace',
+    description:
+      'A platform for filing complaints mainly aimed for internal use in an organization to keep track of complaints.',
+    url: 'https://safeplace.site',
+    previewImage: ProjectSafeplace,
+    technologies: [
+      'React',
+      'JavaScript',
+      'Antd',
+      'Nginx',
+      'Express.js',
+      'MongoDB',
+      'Docker',
+      'Vite',
+    ],
+  },
+
   {
     name: 'Pepehousing',
     description:
