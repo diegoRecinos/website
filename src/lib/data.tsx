@@ -42,7 +42,7 @@ import {
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
+  GITHUB: 'https://github.com/diegoRecinos',
   GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
   TWITTER: 'https://twitter.com/shahsagarm',
   FIGMA: 'https://www.figma.com/@shahsagarm',
@@ -72,15 +72,7 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
-  },
-  {
-    icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
-  },
-  {
-    icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    url: 'https://github.com/diegoRecinos',
   },
 ];
 
