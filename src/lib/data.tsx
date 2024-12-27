@@ -31,6 +31,9 @@ import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
 import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
+import ProjectSafeplace from '/public/images/project-safeplace.png';
+import ProjectCRUD from '/public/images/project-crud.png';
+
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
@@ -176,11 +179,11 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'safeplace',
+    name: 'SafePlace',
     description:
       'A platform for filing complaints mainly aimed for internal use in an organization to keep track of complaints.',
     url: 'https://safeplace.site',
-    previewImage: ProjectWingie,
+    previewImage: ProjectSafeplace,
     technologies: [
       'React',
       'JavaScript',
@@ -193,11 +196,11 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
   {
-    name: 'Fiskil',
+    name: 'Central bank CRUD',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      'Javafx app for purchase transactions using CRUD operations and generating reports using SQL queries  for the user.',
+    url: 'https://github.com/diegoRecinos/CRUD-BancoCentral',
+    previewImage: ProjectCRUD,
     technologies: [
       'React',
       'Next.js',
