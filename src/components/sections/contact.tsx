@@ -44,7 +44,7 @@ const ContactSection = () => {
   return (
     <Container id="contact">
       <div className="flex flex-col items-center gap-4">
-        <div className="self-center">
+        <div className="self-center mb-5">
           <Tag label="Get in touch" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
@@ -69,18 +69,18 @@ const ContactSection = () => {
             </IconButton>
           </div>
           <div className="flex items-center gap-4 md:gap-5">
-            <Phone className="h-6 w-6 md:h-8 md:w-8" />
+            {/*<Phone className="h-6 w-6 md:h-8 md:w-8" />*/}
             {/* <Link href={`tel:${phone.replace(' ', '')}`}> */}
-            <Typography variant="h2">{phone}</Typography>
+            {/*<Typography variant="h2">{phone}</Typography>*/}
             {/* </Link> */}
-            <IconButton
+            {/*<IconButton
               size={width && width < 768 ? 'md' : 'lg'}
               onClick={() => handleCopyClick(phone.replace(' ', ''), 'phone')}
               showTooltip={isCopied && copiedValueType === 'phone'}
               tooltipText="Copied!"
             >
               <Copy />
-            </IconButton>
+            </IconButton>*/}
           </div>
         </div>
         <div className="flex flex-col items-center gap-2">
