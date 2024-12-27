@@ -21,7 +21,7 @@ import Typography from '@/components/general/typography';
 
 const Logo = () => (
   <Typography variant="h3" className="font-bold">
-    {'<SS />'}
+    {'<Recinos />'}
   </Typography>
 );
 
@@ -59,7 +59,7 @@ const Header = () => {
           <div className="h-6 w-0.5 bg-gray-100"></div>
           <div className="flex items-center gap-4">
             <ThemeSwitcher />
-            <DownloadCV />
+            {/*<DownloadCV />*/}
           </div>
         </div>
 

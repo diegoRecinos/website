@@ -123,11 +123,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://tailwindcss.com/',
   },
   {
-    label: 'Figma',
-    logo: LogoFigma,
-    url: 'https://www.figma.com/',
-  },
-  {
     label: 'Java',
     logo: LogoJava,
     url: 'https://www.java.com/',
@@ -185,19 +180,13 @@ export const PROJECTS: ProjectDetails[] = [
     url: 'https://github.com/diegoRecinos/CRUD-BancoCentral',
     previewImage: ProjectCRUD,
     technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Material UI',
-      'Redux Toolkit',
-      'React Query',
-      'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
+      'Java',
+      'Javafx',
+      'SQL server',
+      'JDB',
+      'Maven',
+      'Scene Builder',
+      'IntelliJ',
     ],
   },
   {
@@ -218,22 +207,6 @@ export const PROJECTS: ProjectDetails[] = [
     ],
   },
 
-  {
-    name: 'Pepehousing',
-    description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
-    ],
-  },
 ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [
