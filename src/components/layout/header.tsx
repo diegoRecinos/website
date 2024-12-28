@@ -102,7 +102,7 @@ const Header = () => {
                 <Typography>Switch Theme</Typography>
                 <ThemeSwitcher />
               </div>
-              <DownloadCV />
+              {/*<DownloadCV />*/}
             </div>
           </DrawerContent>
         </Drawer>

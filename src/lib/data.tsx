@@ -20,6 +20,10 @@ import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoJava from '/public/images/logos/icon-java.svg';
+import LogoDocker from '/public/images/logos/icon-docker.svg';
+import LogoSQLserver from '/public/images/logos/logo-sql-server.svg';
+import LogoUbuntu from '/public/images/logos/logo-ubuntu.svg';
+import LogoExcel from '/public/images/logos/logo-excel.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -117,11 +121,7 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoMongoDB,
     url: 'https://www.mongodb.com/',
   },
-  {
-    label: 'Tailwindcss',
-    logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
-  },
+
   {
     label: 'Java',
     logo: LogoJava,
@@ -132,6 +132,27 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoGit,
     url: 'https://git-scm.com/',
   },
+  {
+    label: 'docker',
+    logo: LogoDocker,
+    url: 'https://docker.com/',
+  },
+  {
+    label: 'sqlserver',
+    logo: LogoSQLserver,
+    url: 'https://www.microsoft.com/en/sql-server/sql-server-downloads',
+  },
+  {
+    label: 'ubuntu',
+    logo: LogoUbuntu,
+    url: 'https://ubuntu.com/',
+  },
+  {
+    label: 'excel',
+    logo: LogoExcel,
+    url: 'https://www.microsoft.com/en/microsoft-365/excel?market=af',
+  },
+  
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
@@ -174,7 +195,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Central bank CRUD',
+    name: 'Javafx CRUD',
     description:
       'Javafx app for purchase transactions using CRUD operations and generating reports using SQL queries  for the user.',
     url: 'https://github.com/diegoRecinos/CRUD-BancoCentral',
@@ -192,7 +213,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'SafePlace',
     description:
-      'A platform for filing complaints mainly aimed for internal use in an organization to keep track of complaints.',
+      'Work with a team of 3 for a platform for filing complaints mainly aimed for internal use in an organization to keep track of complaints.',
     url: 'https://safeplace.site',
     previewImage: ProjectSafeplace,
     technologies: [
