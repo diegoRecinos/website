@@ -45,7 +45,7 @@ const ContactSection = () => {
     <Container id="contact">
       <div className="flex flex-col items-center gap-4">
         <div className="self-center mb-5">
-          <Tag label="Get in touch" />
+          <Tag label="Contact me" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
           Feel free to reach out to me.

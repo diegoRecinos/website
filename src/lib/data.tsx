@@ -24,12 +24,14 @@ import LogoDocker from '/public/images/logos/icon-docker.svg';
 import LogoSQLserver from '/public/images/logos/logo-sql-server.svg';
 import LogoUbuntu from '/public/images/logos/logo-ubuntu.svg';
 import LogoExcel from '/public/images/logos/logo-excel.svg';
+import LogoCPP from '/public/images/logos/logo-cpp.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
 import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+import LogoPbs from '/public/images/logos/logo-pbs.png';
 
 import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
@@ -68,10 +70,6 @@ export const NAV_LINKS = [
     href: '#work',
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
-  },
-  {
     label: 'Contact',
     href: '#contact',
   },
@@ -91,9 +89,9 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   },
   {
-    label: 'Typescript',
-    logo: LogoTypescript,
-    url: 'https://www.typescriptlang.org/',
+    label: 'C++',
+    logo: LogoCPP,
+    url: 'https://cpp.com/',
   },
   {
     label: 'React',
@@ -157,39 +155,15 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
-    currentlyWorkHere: true,
+    logo: LogoPbs,
+    logoAlt: 'pbs logo',
+    position: 'Employee',
+    startDate: new Date(2021, 8),
+    endDate: new Date(2021, 10),
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Installed the default software for government laptops thatll be used by students.',
+      'Load inventory.',
     ],
-  },
-  {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
-    summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
-    ],
-  },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
   },
 ];
 

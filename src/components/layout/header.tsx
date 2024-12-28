@@ -58,7 +58,7 @@ const Header = () => {
           </ul>
           <div className="h-6 w-0.5 bg-gray-100"></div>
           <div className="flex items-center gap-4">
-            <ThemeSwitcher />
+            {/*<ThemeSwitcher />*/}
             {/*<DownloadCV />*/}
           </div>
         </div>
@@ -99,8 +99,8 @@ const Header = () => {
             </div>
             <div className="flex flex-col gap-4 p-4">
               <div className="flex items-center justify-between">
-                <Typography>Switch Theme</Typography>
-                <ThemeSwitcher />
+                
+                {/*<ThemeSwitcher />*/}
               </div>
               {/*<DownloadCV />*/}
             </div>
