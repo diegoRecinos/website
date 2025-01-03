@@ -39,6 +39,8 @@ import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
 import ProjectSafeplace from '/public/images/project-safeplace.png';
 import ProjectCRUD from '/public/images/project-crud.png';
+import ProjectLabview from '/public/images/project-labview.png';
+import ProjectAmplifier from '/public/images/project-amplifier.png';
 
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
@@ -99,6 +101,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://react.dev/',
   },
   {
+    label: 'Java',
+    logo: LogoJava,
+    url: 'https://www.java.com/',
+  },
+  {
     label: 'Next.js',
     logo: LogoNextjs,
     url: 'https://nextjs.org/',
@@ -118,12 +125,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'MongoDB',
     logo: LogoMongoDB,
     url: 'https://www.mongodb.com/',
-  },
-
-  {
-    label: 'Java',
-    logo: LogoJava,
-    url: 'https://www.java.com/',
   },
   {
     label: 'Git',
@@ -187,7 +188,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'SafePlace',
     description:
-      'Work with a team of 3 for a platform for filing complaints mainly aimed for internal use in an organization to keep track of complaints.',
+      'Worked with a team of 3 for a platform for filing complaints mainly aimed for internal use in an organization to keep track of complaints.',
     url: 'https://safeplace.site',
     previewImage: ProjectSafeplace,
     technologies: [
@@ -199,6 +200,33 @@ export const PROJECTS: ProjectDetails[] = [
       'MongoDB',
       'Docker',
       'Vite',
+    ],
+  },
+  {
+    name: 'Industrial process simulation Labview',
+    description:
+      'Worked as a team of 4 for a simulated an industrial process using Labview and Arduino with electro valves, termocouples, distance sensors and more.',
+    url: '/',
+    previewImage: ProjectLabview,
+    technologies: [
+      'Arduino',
+      'Electro valve',
+      'Termocouple',
+      'Distance sensor',
+      'Protocol I2C',
+      'Electronics',
+    ],
+  },
+  {
+    name: 'Stereo 35W amplifier',
+    description:
+      'Worked as a team of 2 for a stereo amplifier with a power of 35W per channel using a TDA 2030A IC.',
+    url: '/',
+    previewImage: ProjectAmplifier,
+    technologies: [
+      'Amplifier',
+      'Electronics',
+      'TDA 2030A',
     ],
   },
 
